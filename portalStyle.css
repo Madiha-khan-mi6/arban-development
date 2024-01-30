@@ -1,0 +1,210 @@
+body{
+    color:#405561 ;
+}
+/* .container-fluid{
+    margin-left: 75px;
+    margin-right: 75px !important;
+    
+} */
+.backbtn{
+    margin-top: 100px;
+}
+.topMargin{
+    margin-top: 62px;
+}
+.dropdownMargin{
+    margin-top: 94px;
+}
+.textMargin{
+    margin-top: 104px;
+}
+.btn{
+    background-color: #37A2DD;
+    color: #fff;
+    
+}.btn:hover{
+    color: #fff;
+}
+.formMargin{
+    margin-top: 116px;
+}
+.form-check-input{
+    color: #37A2DD;
+}
+.portal-dropdown{
+    background-color: #1D78AB;
+}
+.portal-input{
+    color: rgba(64, 85, 97, 0.50);
+}
+.checkbox{
+    margin-top: 28px;
+}
+.label-questions{
+    width: 40%;
+    background-color: #405561;
+}
+
+.labelSmallText{
+    font-size: 10px;
+}
+.label-response{
+    width: 55% !important;
+    background-color: #1D78AB;
+    
+}
+.labels{
+    width: 40% !important;
+   background-color:  #7E9AAA;
+   margin-top: 5px;
+}
+span{
+    font-size: 10px;
+}
+.response-inputs{
+    width: 55%;
+    color: #405561 !important;
+    text-align: left;
+    background-color:#F0F6F8 ;
+    margin-top: 5px;
+}
+.response-inputs:active{
+    outline: none;
+}
+input[type=text]:focus{
+    outline: none !important;
+}
+input[type=date]:focus{
+    outline: none !important;
+}
+
+input[type=text]::placeholder{
+    color: #405561;
+}
+select{
+    width: 35% !important;
+}
+select:focus{
+    outline: none
+}
+select option:checked{
+    outline: none !important;
+    border: none !important;
+}
+.sendbtn{
+    width: 100px;
+    background-color: #1D78AB;
+}
+/* ------------img upload input style */
+
+.custom-file{
+    width: 55%;
+    margin-top: 5px;
+    background-color: #F0F6F8;
+    cursor: pointer;
+    }
+.custom-file-input {
+    background-color: #F0F6F8;
+    
+  }
+
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  
+  .custom-file-input::before {
+    width: 100% !important;
+    content: '( Maximum 1 MB file size/ picture)';
+    display: inline-block;
+    background-color:#F0F6F8;
+    color: #405561;
+    border-radius: 5px;
+    
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+   
+    font-size: 12pt;
+  }
+  .custom-file-input2::before {
+    width: 100% !important;
+    content: '';
+    display: inline-block;
+    background-color:#F0F6F8;
+    color: #405561;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 10pt;
+  }
+  .custom-file-input + .custom-file-label {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .custom-file-label{
+    background-color:#7E9AAA;
+    border-radius: 5px;
+  }
+
+
+/* year select input style */
+
+.yearSelect{
+    background-color: #F0F6F8 !important;
+    color: #405561 !important;
+}
+
+.yearSelect select:focus{
+    outline: none;
+    border: none;
+    /* border-radius: 5px; */
+}
+#yearSelect{
+    width: 30% !important;
+}
+#yearSelect option:checked{
+    outline: none !important;
+    border: none !important;
+}
+#yearSelect{
+    color: #405561;
+    background-color: #F0F6F8;
+}
+/* selection dropdowns style */
+
+.selectOption{
+    margin-top: 5px !important;
+    width: 55%;
+    background-color: #F0F6F8;
+}
+.selectOption select{
+    background-color: #F0F6F8;
+    color: #405561;
+}
+.input10{
+    padding: 16px 10px !important;
+}
+/* media queries */
+
+@media screen and (max-width: 560px){
+    .label-questions ,.label-response{
+        width: 100% !important;
+        margin-top: 8px;
+    }
+    .labels ,.response-inputs {
+        width: 100% !important;
+        margin-top: 8px;
+    }
+    .selectOption{
+        width: 100% !important;
+        margin-top: 8px;
+    }
+    .custom-file{
+        width: 100% !important;
+        margin-top: 8px;
+    }
+    
+}
